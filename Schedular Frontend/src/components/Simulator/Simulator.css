@@ -1,0 +1,44 @@
+.table-container {
+    width: 50%; /* Adjust the width as needed */
+    margin: auto; /* Center the table */
+    margin-top: 10rem;
+  }
+  
+   table {
+    text-align: center;
+    width: 100%;
+    
+  }
+  nav{
+    background-color: aquamarine;
+  }
+  
+  .App{
+    margin-top: 5rem;
+    margin-left: 30px;
+  }
+  
+  .f1{
+  margin-left: 70%;
+  }
+
+/* form container css for dropdown */
+  .form-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-inline {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-control {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  table{
+    border-radius: 10px !important;
+  }
+  

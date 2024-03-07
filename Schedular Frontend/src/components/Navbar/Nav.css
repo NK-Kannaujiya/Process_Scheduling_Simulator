@@ -1,0 +1,38 @@
+a {
+    /* color: inherit; Inherit the text color from parent */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .nav-links ul li a:hover {
+    border-bottom: 3px solid red; /* Add red underline on hover */
+    padding-bottom: 2px; /* Adjust space between text and underline */
+  }
+
+
+
+  /* Override default link color */
+.nav-links a {
+  color: lightgray; /* Change to the desired color */
+  text-decoration: none;
+}
+
+/* Override link color when hovered */
+.nav-links a:hover {
+  color: white; /* Change to the desired color */
+}
+
+div {
+  width: 100%;
+  top:0px;
+}
+
+.nav-item.active .nav-link {
+  /* text-decoration: underline; */
+  border-bottom: 3px solid red; /* Add red underline on hover */
+  padding-bottom: 2px; /* Adjust space between text and underline */
+}
+
+.navbar{
+  background-color: #152F4F;
+  color: white;
+}
